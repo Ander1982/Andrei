@@ -17,5 +17,8 @@
 #
 
 
-print('hello git!!!')
-print('Hello GitHab!!!')
+# print('hello git!!!')
+# print('Hello GitHab!!!')
+
+
+print('строка в новом репозитории')
