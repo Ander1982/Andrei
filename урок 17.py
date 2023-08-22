@@ -76,7 +76,7 @@ import re
 # reg = "Петр|Ольга|Виталий|Николай"
 # print(re.findall(reg, s))
 
-s = "int = 4, float = 4/0, double = 8.0f"
+# s = "int = 4, float = 4/0, double = 8.0f"
 # reg = r"\w+\s*=\s*\d+[.\w+]*"
 # reg = r"(?:int|double)\s*=\s*\d+[.\w+]*"
 # print(re.findall(reg, s))
@@ -97,16 +97,20 @@ s = "int = 4, float = 4/0, double = 8.0f"
 # reg = r'(0[0-9]|[12][0-9]|3[0-1])-(0[1-9]|1[0-2])-(19|20[0-99)]'
 # print(re.findall(reg, s))
 
-text = """
-Москва
-Самара
-Калининград
-"""
-count = 0
+# text = """
+# Москва
+# Самара
+# Калининград
+# """
+# count = 0
+#
+# def city_finde(m):
+#     global count
+#     count += 1
+#     return f'<option value="{count}">{m.group(1)}</option>\n'
+#
+# print(re.sub(r'\s*(\w+)\s*', city_finde, text))
 
-def city_finde(m):
-    global count
-    count += 1
-    return f'<option{count}>{m.group(1)}</option>\n'
-
-print(re.sub(r'\s*(\w+)\s*', city_finde, text))
+# s = "Я ищу совпадения в 2023 году. И я их найду в 2 счёта."
+# reg ='\d+\s\D+'
+# print(re.search(reg, s).group())
