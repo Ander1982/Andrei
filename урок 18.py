@@ -77,29 +77,34 @@ import re
 #     f.write(index + '\t')
 # f.close()
 
-f = open('text2.txt', 'w')
-f.write('Замена строки в текстовом файле; \nизменить строку в списке;\nзаписать список в файл')
-f.close()
-
-f = open('text2.txt', 'r')
-read_file = f.readlines()
-print(read_file)
-read_file[1] = 'Hello World\n'
-print(read_file)
-f.close()
-
-f = open('text2.txt', 'w')
-f.writelines(read_file)
-f.close()
+# f = open('text2.txt', 'w')
+# f.write('Замена строки в текстовом файле; \nизменить строку в списке;\nзаписать список в файл')
+# f.close()
+#
+# f = open('text2.txt', 'r')
+# read_file = f.readlines()
+# print(read_file)
+# read_file[1] = 'Hello World\n'
+# print(read_file)
+# f.close()
+#
+# f = open('text2.txt', 'w')
+# f.writelines(read_file)
+# f.close()
 
 # f = open('test.txt')
 # print(f.read(3))
 # print(f.tell())
-# print(f.seek(1))
+# print(f.seek(2))
+# print(f.read())
 # print(f.tell())
 # f.close()
 
 # f = open('test.txt', 'r+')
+# print(f.write('I am learning Python'))
+# print(f.seek(3))
+# print(f.write('-new string-'))
+# print(f.tell())
 # f.close()
 
 # with open('test.txt', 'w+') as f:
@@ -112,14 +117,39 @@ f.close()
 # with open('test.txt', 'r') as f:
 #     print(f.read())
 
-# file_name = 'res_1.txt'
-# lst = [4.5, 2.8, 3.9, 1.0, 4.33, 7.777]
+# file_name = 'res_2.txt'
+# lst = [4.5, 2.8, 3.9, 1.0, 4.33, 7.999]
 #
 # def get_line(lt):
 #     lt = list(map(str, lt))
-#     return ''.join(lt)
+#     return ' '.join(lt)
 #
 # with open(file_name, 'w') as f:
-#     f.write(str(lst))
+#     f.write(get_line(lst))
 #
 # print('Done')
+
+# with open('res_2.txt', 'r') as f:
+#     num = f.read()
+#     print(num)
+#
+# num_list = list(map(float, num.split()))
+# print(num_list)
+
+# def lengest_word(file):
+#     with open(file, 'r', encoding='UTF-8' ) as text:
+#         w = text.read().split()
+#         print(w)
+#         max_length = len(max(w, key=len))
+#         print(max_length)
+#         res = [word for word in w if len(word) == max_length]
+#         print(res)
+#         if len(res) == 1:
+#             return res[0]
+#         return res
+#
+# print(lengest_word('file.txt'))
+
+
+
+
