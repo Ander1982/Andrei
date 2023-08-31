@@ -97,7 +97,7 @@ import os.path
 #         file_path = os.path.join(d, f)
 #         print(file_path)
 #         open(file_path, 'w').close()
-#
+# #
 # #
 # files_with_text = [r'Work\w.txt', r'Work\F1\f12.txt', r'Work\F2\f211.txt', r'Work\F2\f21\f211.txt']
 # for file in files_with_text:
@@ -158,25 +158,25 @@ import os.path
 #         print(p)
 
 import time
-def dell_1(tree_1):
-    print(f'Удадение файлов в папках {tree_1}')
-    print('-' * 50)
-    for root, dirs, files in os.walk(tree_1):
-        print('фыйл', files)
-        for d in dirs:
-            print('dirs', d)
-            for f in files:
-                print('files', f)
-                file_dell = os.path.join(root, d, f)
-                print('1233', file_dell)
-                if os.path.isfile(f'{file_dell}'):
-                    print('0>>>', file_dell)
-                    os.remove(file_dell)
-                    print(file_dell)
-                else:
-                    print('1>>',file_dell)
-
-
-
-     # print('-' * 50)
-dell_1('Work')
+# def dell_1(tree_1):
+#     print(f'Удадение файлов в папках {tree_1}')
+#     print('-' * 50)
+#     for root, dirs, files in os.walk(tree_1):
+#         print('фыйл', files)
+#         for d in dirs:
+#             print('dirs', d)
+#             for f in files:
+#                 print('files', f)
+#                 file_dell = os.path.join(root, d, f)
+#                 print('1233', file_dell)
+#                 if os.path.isfile(f'{file_dell}'):
+#                     print('0>>>', file_dell)
+#                     os.remove(file_dell)
+#                     print(file_dell)
+#                 else:
+#                     print('1>>',file_dell)
+#
+#
+#
+#      # print('-' * 50)
+# dell_1('Work')

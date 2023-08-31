@@ -117,17 +117,17 @@ import re
 # with open('test.txt', 'r') as f:
 #     print(f.read())
 
-# file_name = 'res_2.txt'
-# lst = [4.5, 2.8, 3.9, 1.0, 4.33, 7.999]
-#
-# def get_line(lt):
-#     lt = list(map(str, lt))
-#     return ' '.join(lt)
-#
-# with open(file_name, 'w') as f:
-#     f.write(get_line(lst))
-#
-# print('Done')
+file_name = 'res_2.txt'
+lst = [4.5, 2.8, 3.9, 1.0, 4.33, 7.999]
+
+def get_line(lt):
+    lt = list(map(str, lt))
+    return ' '.join(lt)
+
+with open(file_name, 'w') as f:
+    f.write(get_line(lst))
+
+print('Done')
 
 # with open('res_2.txt', 'r') as f:
 #     num = f.read()
