@@ -44,10 +44,6 @@ class Rectangle:
             print("*")
             i += 1
 
-
-
-
-
 r1 = Rectangle(2, 3)
 r1.set_data(3, 9)
 print('Длинна прямоугольника:', r1.get_length())
