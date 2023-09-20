@@ -1,19 +1,27 @@
-
 class Student:
     def __init__(self, name):
         self.name = name
+        self.notebook = self.Notebook()
 
+    #
     def print_info(self):
-        return self.name
+        print(f'{self.name} => {self.notebook.model()}, {self.notebook.system()}, {self.notebook.computer_memory()}')
 
     class Notebook:
-        def __init__(self, model, sistem, computer_memory):
 
+        def model(self):
+            return "HP"
 
-        def sistem(self):
+        def system(self):
             return "i7"
 
         def computer_memory(self):
             return "16"
+
+
+human = Student('Roman')
+human_2 = Student('Vladimir')
+human.print_info()
+human_2.print_info()
 
 
