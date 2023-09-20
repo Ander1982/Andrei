@@ -1,8 +1,6 @@
 from abc import ABC, abstractmethod
 
 
-#
-#
 # class Chess(ABC):
 #     def draw(self):
 #         print('нарисовать шахматную фигуру')
@@ -20,6 +18,7 @@ from abc import ABC, abstractmethod
 # q = Queen()
 # q.move()
 # q.draw()
+
 
 # class Currency(ABC):
 #     rub = 'RUB'
@@ -126,26 +125,26 @@ from abc import ABC, abstractmethod
 # print(inner.inner_name)
 # inner.inner_method()
 
-# class Color:
-#     def __init__(self):
-#         self.name = 'Green'
-#         self.lg = self.LightGreen()
-#
-#     def show(self):
-#         print('Name', self.name)
-#
-#     class LightGreen:
-#         def __init__(self):
-#             self.name = 'Light Green'
-#
-#         def display(self):
-#             print('Name', self.name)
-#
-#
-# outer = Color()
-# outer.show()
-# g = outer.lg
-# g.display()
+class Color:
+    def __init__(self):
+        self.name = 'Green'
+        self.lg = self.LightGreen()
+
+    def show(self):
+        print('Name', self.name)
+
+    class LightGreen:
+        def __init__(self):
+            self.name = 'Light Green'
+
+        def display(self):
+            print('Name', self.name)
+
+
+outer = Color()
+outer.show()
+g = outer.lg
+g.display()
 
 # class Employee:
 #     def __init__(self):
