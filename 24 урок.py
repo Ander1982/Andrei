@@ -232,18 +232,16 @@ from abc import ABC, abstractmethod
 # cat = Cat('Пушок')
 # print(cat)
 
-# class Point:
-#     def __init__(self, *args):
-#         self.__coord = args
-#
-#
-#     def __len__(self):
-#         return len(self.__coord)
-#
-#
-# p = Point(2, 7, 10)
-# print(len(p))
+class Point:
+    def __init__(self, *args):
+        self.__coord = args
 
+    def __len__(self):
+        return len(self.__coord)
+
+
+p = Point(2, 7, 10)
+print(len(p))
 
 # import math
 #

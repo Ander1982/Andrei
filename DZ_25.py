@@ -49,20 +49,22 @@ class Clock:
 
 c1 = Clock(600)
 c2 = Clock(200)
-print('c1:', c1.get_format_time())
 c3 = c1 - c2
-print('c1 - c2:', c3.get_format_time())
-c4 = c1 * c2
-print('c1 * c2:', c4.get_format_time())
-c5 = c1 // c2
-print('c1 // c2:', c5.get_format_time())
-c6 = c1 % c2
-print('c1 % c2:', c6.get_format_time())
-c1 -= c2
-print('c1 -= c2:', c1.get_format_time())
-c1 *= c2
-print('c1 *= c2:', c1.get_format_time())
-c1 //= c2
-print('c1 //= c2:', c1.get_format_time())
-c1 %= c2
-print('c1 %= c2:', c1.get_format_time())
+print(c3)
+# print('c1:', c1.get_format_time())
+
+# print('c1 - c2:', c3.get_format_time())
+# c4 = c1 * c2
+# print('c1 * c2:', c4.get_format_time())
+# c5 = c1 // c2
+# print('c1 // c2:', c5.get_format_time())
+# c6 = c1 % c2
+# print('c1 % c2:', c6.get_format_time())
+# c1 -= c2
+# print('c1 -= c2:', c1.get_format_time())
+# c1 *= c2
+# print('c1 *= c2:', c1.get_format_time())
+# c1 //= c2
+# print('c1 //= c2:', c1.get_format_time())
+# c1 %= c2
+# print('c1 %= c2:', c1.get_format_time())

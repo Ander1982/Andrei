@@ -1,4 +1,3 @@
-
 # class Human:
 #     skill = 10
 #     name = ''
@@ -92,36 +91,124 @@
 # del d3
 # print('Количество работающих роботов', Robot.k)
 
-class Point:
+# class Point:
+#
+#     def __init__(self, x, y):
+#         self.__x = self.__y = 0
+#         if Point.__check_value(x) and Point.__check_value(y):
+#             self.__x = x
+#             self.__y = y
+#
+#
+#     @staticmethod
+#     def __check_value(z):
+#         if isinstance(z, int) or isinstance(z, float):
+#             return True
+#         return False
+#
+#     def set_coord(self, x, y):
+#         if Point.__check_value(x) and Point.__check_value(y):
+#             self.__x = x
+#             self.__y = y
+#         else:
+#             print('Координвты должны содержать число')
+#     def get_coord(self):
+#         return self.__x, self.__y
+#
+#
+# p1 = Point(89, 10)
+# # print()
+# # print(p1.__dict__)
+# p1.set_coord(56, 9)
+# print(p1.get_coord())
+#
+#
+# class Cat:
+#     def __init__(self, name, age):
+#         self.x = 'кот'
+#         self.name = name
+#         self.age = age
+#
+#     def info(self):
+#         return f'Я {self.x}. Меня зовут {self.name}. Мой возраст {self.age}.'
+#
+#     def make_sound(self):
+#         return f'{self.name} мяукает.'
+#
+#
+# class Dog:
+#     def __init__(self, name, age):
+#         self.x = 'собака'
+#         self.name = name
+#         self.age = age
+#
+#     def info(self):
+#         return f'Я {self.x}. Меня зовут {self.name}. Мой возраст {self.age}.'
+#
+#     def make_sound(self):
+#         return f'\n{self.name} гавкает.'
+#
+#
+# c = Cat('Пушок', 2.5)
+#
+# d = Dog('Мухтар', 4)
+#
+# q = [c, d]
+#
+# for a in q:
+#     print(a.info(), a.make_sound())
+#
+#
+class Hunman:
+    def __init__(self, surname, name, age):
+        self.surname = surname
+        self.name = name
+        self.age = age
 
-    def __init__(self, x, y):
-        self.__x = self.__y = 0
-        if Point.__check_value(x) and Point.__check_value(y):
-            self.__x = x
-            self.__y = y
+    def info(self):
+        print(f"\n{self.surname} {self.name} {self.age}", end=' ')
 
 
-    @staticmethod
-    def __check_value(z):
-        if isinstance(z, int) or isinstance(z, float):
-            return True
-        return False
+class Student(Hunman):
+    def __init__(self, surname, name, age, group, flow, rating):
+        super().__init__(surname, name, age)
+        self.group = group
+        self.flow = flow
+        self.rating = rating
 
-    def set_coord(self, x, y):
-        if Point.__check_value(x) and Point.__check_value(y):
-            self.__x = x
-            self.__y = y
-        else:
-            print('Координвты должны содержать число')
-    def get_coord(self):
-        return self.__x, self.__y
+    def info(self):
+        super().info()
+        print(f'{self.group}  {self.flow}  {self.rating}', end=' ')
 
 
-p1 = Point(89, 10)
-# print()
-# print(p1.__dict__)
-p1.set_coord(56, 9)
-print(p1.get_coord())
+class Teacher(Hunman):
+    def __init__(self, surname, name, age, item, rating):
+        super().__init__(surname, name, age)
+        self.item = item
+        self.rating = rating
+
+    def info(self):
+        super().info()
+        print(f'{self.item}{self.rating}', end=' ')
 
 
+class Graduate(Student):
+    def __init__(self, surname, name, age, group, flow, rating, graduate):
+        super().__init__(surname, name, age, group, flow, rating)
+        self.graduate = graduate
 
+    def info(self):
+        super().info()
+        print(f'{self.graduate}', end='')
+
+
+groups = [
+    Student("Батодалаев", "Даши", 16, "ГК", "Web_011", 5),
+    Student("Загидуллин", "Линар", 32, "РПО", "PD_011", 5),
+    Graduate("Шугани", "Сергей", 15, "РПО", "PD_011", 5, "Защита персональных данных"),
+    Teacher("Даньшин", "Андрей", 38, "Астрофизика", 110),
+    Student("Маркин", "Даниил", 17, "ГК", "Python_011", 5),
+    Teacher("Башкиров", "Алексей", 45, "Разработка приложений", 20)
+]
+for i in groups:
+    i.info()

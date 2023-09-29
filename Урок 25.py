@@ -30,32 +30,43 @@
 
 # class A:
 #     def __init__(self):
-#         print('Иницилизатор A')
+#         print('Инициализатор A')
 #
 #
 # class AA:
 #     def __init__(self):
-#         print('Иницилизатор AA')
+#         print('Инициализатор AA')
 #
 #
 # class B(A):
 #     def __init__(self):
-#         print('Ишициализ B')
+#         A.__init__(self)
+#         print('Инициализатор B')
 #
 #
 # class C(AA):
 #     def __init__(self):
-#         print(' С')
+#         AA.__init__(self)
+#         print('Инициализатор С')
 #
 #
 # class D(B, C):
 #     def __init__(self):
 #         B.__init__(self)
 #         C.__init__(self)
-#         print('D')
+#         print('Инициализатор D')
 #
 #
-# d = D()
+# class F(C, B):
+#     def __init__(self):
+#         B.__init__(self)
+#         C.__init__(self)
+#         print('Инициализатор F')
+#
+#
+# # d = D()
+# f = F()
+# print(F.__mro__)
 # print(D.mro())
 # print(D.__mro__)
 
@@ -70,13 +81,13 @@
 #
 # class Styles:
 #     def __init__(self, color="red", width=1):
-#         print('Инициизация Styles')
+#         print('Инициализация Styles')
 #         self._color = color
 #         self._width = width
 #
 #
 # class Pos:
-#     def __init__(self, sp: Point, ep: Point, color, width):
+#     def __init__(self, sp: Point, ep: Point, color='red', width=7):
 #         print('Инициалтз Pos')
 #         self._sp = sp
 #         self._ep = ep
@@ -88,25 +99,28 @@
 #         print(f' Оисоыр {self._sp}, {self._ep}, {self._color}, {self._width}')
 #
 #
-# l1 = Line(Point(10, 10), Point(100, 100), 'green', 5)
+# l1 = Line(Point(10, 10), Point(100, 100))
 # l1.draw()
 #
 # Миксины (примеси)
 
 # class Displayer:
 #     @staticmethod
-#     def display(massage):
-#         print(massage)
+#     def display(message):
+#         print(message)
+#
 #
 # class LoggerMixin:
 #     def log(self, message, filename='logfile.txt'):
+#         print('3')
 #         with open(filename, 'a') as fh:
 #             fh.write(message)
 #
+#     def display(self, message):
+#         Displayer.display(message)
+#         print('2')
+#         self.log(message)
 #
-#     def display(self, messege):
-#         Displayer.display(messege)
-#         self.log(messege)
 #
 # class MySubClass(LoggerMixin, Displayer):
 #     def log(self, message, filename=""):
@@ -179,13 +193,15 @@ class Clock:
         return str(x) if x > 9 else "0" + str(x)
 
 
+#
+
 c1 = Clock(600)
-c2 = Clock(200)
+c2 = Clock(800)
 if c1 == c2:
     print('Впемя одтинаковое')
 else:
     print('Время разное')
-c3 = c1 + c2
-print('c1:', c1.get_format_time())
-print((c2.get_format_time()))
+# c3 = c1 + c2
+# print('c1:', c1.get_format_time())
+# print((c2.get_format_time()))
 # print((c3.get_format_time()))
