@@ -41,6 +41,7 @@
 # s2 = StringStrip('?:!.; ')
 # print(s2(' ? Hello World! ; '))
 
+# Класс как декоратор
 
 # class MyDecorator:
 #     def __init__(self, fn):
@@ -50,9 +51,12 @@
 #         print('Перед вызовом функции')
 #         self.fn()
 #         print('После вызова функции')
+#
+#
 # @MyDecorator
 # def func():
 #     print('Hello')
+#
 #
 # func()
 
@@ -322,15 +326,15 @@
 #     def get_length(self):
 #         return len(self)
 
-MyList = type(
-    'MyList',
-    (list,),
-    dict(g)
-)
-
-
-lst = MyList()
-lst.append(1)
-lst.append(2)
-lst[0] = 3
-print(lst, lst.get_length())
+# MyList = type(
+#     'MyList',
+#     (list,),
+#     dict(g)
+# )
+#
+#
+# lst = MyList()
+# lst.append(1)
+# lst.append(2)
+# lst[0] = 3
+# print(lst, lst.get_length())

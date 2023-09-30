@@ -1,5 +1,7 @@
 class Point3D:
     def __init__(self, x, y, z):
+        if not isinstance(x, y, z, int)
+
         self.x = x
         self.y = y
         self.z = z
