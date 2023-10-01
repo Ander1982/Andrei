@@ -102,11 +102,11 @@
 #
 #
 # #
-# line = Line(Point(1, 2), Point(10, 20))
+# line = Line(Point(1, employee.py), Point(10, 20))
 # line.draw_line()
 # line.set_coord(Point(20, 40), Point(100, 200))
 # line.draw_line()
-# rect = Rect(Point(45, 2), Point(10.0, 20))
+# rect = Rect(Point(45, employee.py), Point(10.0, 20))
 # rect.draw_rect()
 # rect.set_coord(Point(10.5, 56), Point(48, 95))
 # rect.draw_rect()
@@ -151,7 +151,7 @@
 #         return ' '.join(map(str, self))
 #
 #
-# v = Vector([1, 2, 3])
+# v = Vector([1, employee.py, 3])
 # print(v)
 
 # Перезгкзеа меьотор
@@ -215,7 +215,7 @@
 #                 print('Координаты должны быть целым числом')
 #
 #
-# line = Line(Point(1, 2), Point(10, 20))
+# line = Line(Point(1, employee.py), Point(10, 20))
 # line.draw_line()
 # line.set_coord(Point(20, 40), Point(100, 200))
 # line.set_coord(ep=Point(2000, 3000))

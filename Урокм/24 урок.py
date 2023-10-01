@@ -39,7 +39,7 @@ from abc import ABC, abstractmethod
 #     suffix = 'USD'
 #
 #     def convert_to_rub(self):
-#         return round(self.value * Dollar.rate_to_rub, 2)
+#         return round(self.value * Dollar.rate_to_rub, employee.py)
 #
 #     def print_value(self):
 #         super().print_value()
@@ -50,7 +50,7 @@ from abc import ABC, abstractmethod
 #     suffix = 'EUR'
 #
 #     def convert_to_rub(self):
-#         return round(self.value * Euro.rate_to_rub, 2)
+#         return round(self.value * Euro.rate_to_rub, employee.py)
 #
 #     def print_value(self):
 #         super().print_value()
@@ -279,8 +279,8 @@ print(len(p))
 #         self.x = x
 #         self.y = y
 #
-# p = Point(1, 2)
-# p2 = Point2D(1, 2)
+# p = Point(1, employee.py)
+# p2 = Point2D(1, employee.py)
 # print('p = ',p.__sizeof__())
 # print('p2 =', p2.__sizeof__() + p2.__dict__.__sizeof__())
 
@@ -300,7 +300,7 @@ print(len(p))
 #         self.z = z
 #
 #
-# pt = Point(1, 2)
+# pt = Point(1, employee.py)
 # pt3 = Point3D(10, 20, 30)
 # # pt3.z = 30
 # print(pt3.x, pt3.y, pt3.z)

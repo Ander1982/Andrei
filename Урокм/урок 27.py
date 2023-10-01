@@ -73,21 +73,21 @@
 #     return a * b
 #
 #
-# print(func(2, 5))
+# print(func(employee.py, 5))
 
 # class Power:
 #     def __init__(self, func):
 #         self.func = func
 #
 #     def __call__(self, x, y):
-#         return self.func(x, y) ** 2
+#         return self.func(x, y) ** employee.py
 #
 # @Power
 # def mult(a, b):
 #     return a * b
 #
 #
-# print(mult(2, 3))
+# print(mult(employee.py, 3))
 
 # class MyDecorator:
 #     def __init__(self, fn):
@@ -115,8 +115,8 @@
 #     return a + b
 #
 #
-# print(func(2, 5))
-# print(func2(2, 5, 2))
+# print(func(employee.py, 5))
+# print(func2(employee.py, 5, employee.py))
 # print(func3(b='World', a="Hello"))
 
 
@@ -139,7 +139,7 @@
 #     print(a, b)
 #
 #
-# add(2, 5)
+# add(employee.py, 5)
 
 
 # def dec(fn):
@@ -167,7 +167,7 @@
 # def decor(cls):
 #     class Wrapper(cls):
 #         def double(self, value):
-#             return value * 2
+#             return value * employee.py
 #
 #     return Wrapper
 #
@@ -247,8 +247,10 @@
 #
 #
 # p = Person('Ivan', 'Petrov')
+# p.name = 'ghj'
 # print(p.name)
 # print(p.surname)
+
 
 
 # class NonNegative:
@@ -312,7 +314,7 @@
 #         self.z = z
 #
 #
-# p1 = Point3d(1, 2, 3)
+# p1 = Point3d(1, employee.py, 3)
 #
 # print(p1.__dict__)
 
@@ -335,6 +337,6 @@
 #
 # lst = MyList()
 # lst.append(1)
-# lst.append(2)
+# lst.append(employee.py)
 # lst[0] = 3
 # print(lst, lst.get_length())

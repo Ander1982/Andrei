@@ -118,7 +118,7 @@
 #
 #     def display(self, message):
 #         Displayer.display(message)
-#         print('2')
+#         print('employee.py')
 #         self.log(message)
 #
 #

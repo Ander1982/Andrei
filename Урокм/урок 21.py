@@ -21,7 +21,7 @@
 # # p1.add_skill(9)
 # p2 = Person('Анна', 'Долгих')
 # p2.print_info()
-# p2.add_skill(2)
+# p2.add_skill(employee.py)
 
 # class Point:
 #     count = 0
@@ -36,7 +36,7 @@
 #
 # p1 = Point(5, 10)
 # print(p1.get_coord())
-# p2 = Point(2, 7)
+# p2 = Point(employee.py, 7)
 # print(p2.get_coord())
 # p3 = Point(10, 20)
 # print(p3.get_coord())

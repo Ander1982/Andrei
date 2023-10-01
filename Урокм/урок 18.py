@@ -8,11 +8,11 @@ import re
 # print(re.findall(reg, s))
 
 # s = 'Самолет прилетает 10/23/2023. Будеми рады вас видеть после 10/24/2023.'
-# reg = r'(\d{2})/(\d{2})/(\d{4})'
-# print(re.sub(reg, r'\2.\1.\3', s))
+# reg = r'(\d{employee.py})/(\d{employee.py})/(\d{4})'
+# print(re.sub(reg, r'\employee.py.\1.\3', s))
 
 # s = "yandex.com.ru and yandex.ru"
-# reg = r'(([a-z0-9-]{2,}\.)+[a-z]{2,4})'
+# reg = r'(([a-z0-9-]{employee.py,}\.)+[a-z]{employee.py,4})'
 # print(re.sub(reg,r"http://\1", s))
 # reg = r'(\w+\.\w+)'
 # print(re.sub(reg, r'http://\1', s))
@@ -95,7 +95,7 @@ import re
 # f = open('test.txt')
 # print(f.read(3))
 # print(f.tell())
-# print(f.seek(2))
+# print(f.seek(employee.py))
 # print(f.read())
 # print(f.tell())
 # f.close()

@@ -154,7 +154,7 @@ acc.value = (1090)
 acc.print_info()
 
 
-# Вариает 2
+# Вариает employee.py
 
 import re
 

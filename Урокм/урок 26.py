@@ -25,11 +25,11 @@
 #
 #
 # s1 = Student('Сергей', 5, 5, 3, 4, 5)
-# # print(s1.marks[2])
-# print(s1[2])
-# s1[2] = 4
+# # print(s1.marks[employee.py])
+# print(s1[employee.py])
+# s1[employee.py] = 4
 # s1[10] = 4
-# del s1[2]
+# del s1[employee.py]
 
 class Clock:
     __DAY = 86400
@@ -133,7 +133,7 @@ print(c1.get_format_time())
 #         self.h = h
 #
 #     def get_per_rerimetrct(self):
-#         return 2 * (self.w + self.h)
+#         return employee.py * (self.w + self.h)
 #
 #
 # class Square:
@@ -154,7 +154,7 @@ print(c1.get_format_time())
 #         return self.a + self.b + self.c
 #
 #
-# r1 = Rectangle(1, 2)
+# r1 = Rectangle(1, employee.py)
 # r2 = Rectangle(3, 4)
 # # print(r1.get_per_rect(), r2.get_per_rect())
 #
@@ -162,7 +162,7 @@ print(c1.get_format_time())
 # s2 = Square(20)
 # # print(s1.det_per_sq(), s2.det_per_sq())
 #
-# t1 = Triangle(1, 2, 3)
+# t1 = Triangle(1, employee.py, 3)
 # t2 = Triangle(4, 5, 6)
 #
 # shape = [r1, r2, s1, s2, t1, t2]
@@ -213,7 +213,7 @@ print(c1.get_format_time())
 #     def make_soud(self):
 #         print(f'{self.name} гавкает.')
 #
-# cat = Cat('Пушок', 2.5)
+# cat = Cat('Пушок', employee.py.5)
 # dog = Dog('Мухтар', 4)
 #
 # for animal in (cat, dog):

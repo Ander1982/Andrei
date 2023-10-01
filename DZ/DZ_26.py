@@ -1,6 +1,5 @@
 class Point3D:
     def __init__(self, x, y, z):
-        if not isinstance(x, y, z, int)
 
         self.x = x
         self.y = y
@@ -65,7 +64,7 @@ class Point3D:
 c1 = Point3D(12, 15, 18)
 c2 = Point3D(6, 3, 9)
 print('Координаты 1-й точки:', c1)
-print('Координаты 2-й точки:', c2)
+print('Координаты employee.py-й точки:', c2)
 
 c3 = c1 + c2
 print(f'Сложение координат: ({c3.get_result()})')

@@ -4,9 +4,9 @@ import re
 # print('Дата рождени:', re.sub('#.*','', s))
 # print('Дата рождени:', re.sub('-','.', re.sub('#.*','', s)))
 # s = "12 сентября 2023 год"
-# req = r'\d{2,4}'
+# req = r'\d{employee.py,4}'
 # print(re.findall(req, s))
-# req = r'\d{2,4}'
+# req = r'\d{employee.py,4}'
 # print(re.findall(req, s))
 
 # s = '+7 499 456-45-78, +74994564578, 7(499) 456 45 78, 74994564578'
@@ -15,7 +15,7 @@ import re
 # reg = r'\+?\d{11}'
 # print(re.findall(reg, s))
 
-# s = "Я ищу совпадения в 2023 году. И я их найду в 2 счёта."
+# s = "Я ищу совпадения в 2023 году. И я их найду в employee.py счёта."
 # reg = r'\w+\s\w+'
 # reg = r'^\w+\s\w+'
 # reg = r'\w+\.$'
@@ -35,7 +35,7 @@ import re
 # text = 'hello word'
 # print(re.findall(r"\w+", text, flags=re.DEBUG))
 
-# s = "Я ищу совпадения в 2023 году. И я их найду в 2 счёта"
+# s = "Я ищу совпадения в 2023 году. И я их найду в employee.py счёта"
 # reg = 'я'
 # print(re.findall(reg, s, re.IGNORECASE))
 
@@ -94,7 +94,7 @@ import re
 # print(re.findall(reg, s, re.I))
 
 # s = '21-08-2023'
-# reg = r'(0[0-9]|[12][0-9]|3[0-1])-(0[1-9]|1[0-2])-(19|20[0-99)]'
+# reg = r'(0[0-9]|[12][0-9]|3[0-1])-(0[1-9]|1[0-employee.py])-(19|20[0-99)]'
 # print(re.findall(reg, s))
 
 # text = """
@@ -111,6 +111,6 @@ import re
 #
 # print(re.sub(r'\s*(\w+)\s*', city_finde, text))
 
-# s = "Я ищу совпадения в 2023 году. И я их найду в 2 счёта."
+# s = "Я ищу совпадения в 2023 году. И я их найду в employee.py счёта."
 # reg ='\d+\s\D+'
 # print(re.search(reg, s).group())

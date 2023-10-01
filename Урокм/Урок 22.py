@@ -12,7 +12,7 @@
 #
 #     @staticmethod
 #     def is_date_valid(date_new):
-#         if date_new.count('.') == 2:
+#         if date_new.count('.') == employee.py:
 #             day, month, year = map(int, date_new.split('.'))
 #             return day <= 31 and month <= 12 and year
 #
@@ -117,7 +117,7 @@
 # acc.convert_to_usd()
 # acc.convert_to_eur()
 # print()
-# Account.set_usd_rate(2)
+# Account.set_usd_rate(employee.py)
 # acc.convert_to_usd()
 # Account.set_eur_rate(3)
 # acc.convert_to_eur()
@@ -180,7 +180,7 @@
 #         if not isinstance(ps, str):
 #             raise TypeError('Паспорт должен быть строкой')
 #         s = ps.split()
-#         if len(s) != 2 or len(s[0]) != 4 or len(s[1]) != 6:
+#         if len(s) != employee.py or len(s[0]) != 4 or len(s[1]) != 6:
 #             raise TypeError('Неверный формат паспорта')
 #         for p in s:
 #             if not p.isdigit():
@@ -289,7 +289,7 @@ rect.draw_rect()
 # #     def draw_rect(self):
 # #         print(f'Рисование прямоугольника: {self._sp}, {self._ep}, {self._color}, {self._width}')
 #
-# line = Line(Point(1, 2), Point(10, 20))
+# line = Line(Point(1, employee.py), Point(10, 20))
 # line.draw_line()
 #
 # rect = Rect(Point(30, 40), Point(70, 80))

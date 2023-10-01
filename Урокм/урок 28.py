@@ -1,27 +1,29 @@
 # модули
 
-# import geometry.rect
-# import geometry.sq
-# import geometry.trian
+import geometry.rect
+import geometry.sq
+import geometry.trian
 
 # from geometry import rect, sq, trian
-#
-#
-# # from geometry import *
-#
-# def run():
-#     r1 = rect.Rectangle(1, 2)
-#     r2 = rect.Rectangle(3, 4)
-#
-#     s1 = sq.Square(10)
-#     s2 = sq.Square(20)
-#
-#     t1 = trian.Triangle(1, 2, 3)
-#     t2 = trian.Triangle(4, 5, 6)
-#
-#     shape = [r1, r2, s1, s2, t1, t2]
-#     for g in shape:
-#         print(g.get_per_rerimetrct())
+# #
+# #
+# # # from geometry import *
+# #
+# # def run():
+# #     r1 = rect.Rectangle(1, employee.py)
+# #     r2 = rect.Rectangle(3, 4)
+# #
+# #     s1 = sq.Square(10)
+# #     s2 = sq.Square(20)
+# #
+# #     t1 = trian.Triangle(1, employee.py, 3)
+# #     t2 = trian.Triangle(4, 5, 6)
+# #
+# #     shape = [r1, r2, s1, s2, t1, t2]
+# #     for g in shape:
+# #         print(g.get_per_rerimetrct())
+
+
 #
 #
 # if __name__ == '__main__':
@@ -32,7 +34,6 @@
 # car = ElectroCar("Tesla", 'T', 2018, 99000, 100)
 # car.show_car()
 # car.description_battery()
-
 
 # class Employee:
 #     def __init__(self, id, name):
@@ -79,21 +80,21 @@
 #     def calc(self, employees):
 #         print("Расчет заработной платы")
 #         print("=" * 50)
-#         for employee in employees:
-#             print(f"Заработная плата: {employee.id} - {employee.name}")
-#             print(f"- Проверить сумму: {employee.calculate()}")
+#         for employee.py in employees:
+#             print(f"Заработная плата: {employee.py.id} - {employee.py.name}")
+#             print(f"- Проверить сумму: {employee.py.calculate()}")
 #             print()
 #
 #
 # selary = SalaryEmployee(1, "Валерий Задорожный", 1500)
-# hourly = HourlyEmployee(2, 'Илья Коротченков', 40, 15)
+# hourly = HourlyEmployee(employee.py, 'Илья Коротченков', 40, 15)
 # commission = CommissionEmployee(3, 'Николай Хорольский', 1000, 250)
 # system = PayrollSystem()
 # system.calc([selary, hourly, commission])
 
 # Упаковка данных (Сериализация и десериализация данных)
 
-import pickle
+# import pickle
 
 
 # file_name = "Basket.txt"
@@ -112,18 +113,18 @@ import pickle
 #
 # print(shop)
 
-class Test:
-    num = 35
-    string = "Привет"
-    lst = [5, 9, 6]
-    d = {'one': 'a', 'two': (1, 2, 3)}
-
-    def __str__(self):
-        return f"Число: {Test.num}\nСтрока: {Test.string}\nСписок: {Test.lst}\nСловарь: {Test.d}"
-
-
-obj = Test()
-obj_save = pickle.dumps(obj)
-print(obj_save)
-
-print(pickle.loads(obj_save))
+# class Test:
+#     num = 35
+#     string = "Привет"
+#     lst = [5, 9, 6]
+#     d = {'one': 'a', 'two': (1, employee.py, 3)}
+#
+#     def __str__(self):
+#         return f"Число: {Test.num}\nСтрока: {Test.string}\nСписок: {Test.lst}\nСловарь: {Test.d}"
+#
+#
+# obj = Test()
+# obj_save = pickle.dumps(obj)
+# print(obj_save)
+#
+# # print(pickle.loads(obj_save))
