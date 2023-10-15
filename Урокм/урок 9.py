@@ -2,7 +2,8 @@
 # s = frozenset (i )
 
 # словарь (dict)
-# lst = {'one': 1, 'two':2, 3: 0}
+# lst = {'one': 1, 'two': 2, 3: 0}
+# print(lst)
 # print(lst['one'])
 # print(lst[3])
 
@@ -85,7 +86,7 @@
 
 # d = {'x1': 3, 'x2': 7, 'x3': 5, 'x4': -1}
 # print(d.keys()) #список ключей
-# print(d.values())#
+# # print(d.values())#
 # print(d.items())
 # for i in d.values():
 #     print(i)
@@ -104,19 +105,19 @@
 
 # x = {'a': 1, 'b': 2,}
 # y = {'b': 3, 'c': 4,}
-# # z = x.copy()
-# # z.update(y)
-# # print(z)
+# z = x.copy()
+# z.update(y)
+# print(z)
 # z = x | y
 # print(z)
 
 d = {'a': 1, 'b': 2, 'c': 3}
-# d.clear()
+# # # d.clear()
+# # # print(d)
+# i = d.pop('b')
+# # print(i)
 # print(d)
-i = d.pop('b')
-print(i)
-print(d)
-i = d.popitem()
+# i = d.popitem()
 print(d)
 
 # d = {'name': 'Kelly', 'age': 25, 'salary': 8000, 'city': 'New York'}
