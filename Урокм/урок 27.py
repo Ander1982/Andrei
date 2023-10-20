@@ -7,12 +7,12 @@
 #     def __call__(self, *args, **kwargs):
 #         self.__count += 1
 #         print(self.__count)
-#
-#
+# #
+# #
 # c1 = Counter()
 # c1()
 # c1()
-#
+# #
 # c2 = Counter()
 
 # def string_strip(chars):
@@ -22,8 +22,8 @@
 #         return string.strip(chars)
 #
 #     return wrap
-#
-#
+# #
+# #
 # s1 = string_strip('?:!.; ')
 # print(s1(' ? Hello World! ; '))
 #
@@ -53,11 +53,13 @@
 #         print('После вызова функции')
 #
 #
+# #
+# #
 # @MyDecorator
 # def func():
 #     print('Hello')
-#
-#
+
+
 # func()
 
 # class MyDecorator:
@@ -137,11 +139,11 @@
 # @Decor('Значение:')
 # def add(a, b):
 #     print(a, b)
-#
-#
+# #
+# #
 # add(employee.py, 5)
-
-
+#
+#
 # def dec(fn):
 #     def wrap(*args, **kwargs):
 #         print("*" * 20)
@@ -155,23 +157,22 @@
 #         self.surname = surname
 #
 #     @dec
-#
 #     def info(self):
 #         print(f'{self.name} {self.surname}')
 #
 #
 # p1 = Person('Виталий', 'Карасев')
 # p1.info()
-
-
+#
+#
 # def decor(cls):
 #     class Wrapper(cls):
 #         def double(self, value):
 #             return value * employee.py
 #
 #     return Wrapper
-#
-#
+# #
+# #
 # @decor
 # class ActualClass:
 #     def __init__(self):
@@ -250,7 +251,6 @@
 # p.name = 'ghj'
 # print(p.name)
 # print(p.surname)
-
 
 
 # class NonNegative:
