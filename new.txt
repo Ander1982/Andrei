@@ -1,121 +1,210 @@
 Новость № 1
 
-Название: Отвезет двух детей на 80 км: представлен карго электровелосипед Higgs Cargo
-Ссылка:https://www.ixbt.com/live/car/otvezet-dvuh-detey-na-80-km-predstavlen-kargo-elektrovelosiped-higgs-cargo.html
-Автор:bdosНовость № 2
+Название: Президент США выделил 100 миллионов долларов бедным согражданам на покупку ветряков и солнечных электростанций
+Ссылка:https://www.ixbt.com/live/offtopic/prezident-ssha-vydelil-100-millionov-dollarov-bednym-sograzhdanam-na-pokupku-vetryakov-i-solnechnyh-elektrostanciy.html
+Автор:Technoblogger
 
-Название: Функция голосовых заметок от Google появилась в операционной системе Wear OS
-Ссылка:https://www.ixbt.com/live/gadgets/funkciya-golosovyh-zametok-ot-google-poyavilas-v-operacionnoy-sisteme-wear-os.html
-Автор:PavelLBBНовость № 3
+**************************************************
+Новость № 2
 
-Название: Вскрытие графического процессора Nvidia RTX 3080 выявило неприятный недостаток системы охлаждения
-Ссылка:https://www.ixbt.com/live/3dv/vskrytie-graficheskogo-processora-nvidia-rtx-3080-vyyavilo-nepriyatnyy-nedostatok-sistemy-ohlazhdeniya.html
-Автор:PavelLBBНовость № 4
+Название: Добавить карманной отвертке момента: представлена Symtik S1
+Ссылка:https://www.ixbt.com/live/instruments/dobavit-karmannoy-otvertke-momenta-predstavlena-symtik-s1.html
+Автор:bdos
 
-Название: Биткоин пошёл в рост
-Ссылка:https://www.ixbt.com/live/crypto/bitkoin-vzletel-pochti-do-30-000.html
-Автор:JinНовость № 5
+**************************************************
+Новость № 3
 
-Название: LG Innotek получила международные патенты на технологию зарядки электромобилей
-Ссылка:https://www.ixbt.com/live/car/lg-innotek-poluchila-patenty-na-tehnologiyu-zaryadki-elektromobiley.html
-Автор:ProlusНовость № 6
+Название: Новое применение для Е-ink экранов: представлен лодочный навигатор Maptattoo
+Ссылка:https://www.ixbt.com/live/gadgets/novoe-primenenie-dlya-e-ink-ekranov-predstavlen-lodochnyy-navigator-maptattoo.html
+Автор:bdos
 
-Название: У россиян стали чаще красть криптовалюту
-Ссылка:https://www.ixbt.com/live/crypto/u-rossiyan-stali-chasche-krast-kriptovalyutu.html
-Автор:JinНовость № 7
+**************************************************
+Новость № 4
 
-Название: Биткоин вырос из-за уверенности инвесторов, которые вывели с бирж 280 млн долларов
-Ссылка:https://www.ixbt.com/live/crypto/bitkoin-vyros-iz-za-uverennosti-investorov-kotorye-vyveli-s-birzh-280-mln-dollarov.html
-Автор:JinНовость № 8
+Название: Ferrari внедряет оплату криптовалютой для своих спорткаров на американском рынке
+Ссылка:https://www.ixbt.com/live/car/ferrari-vnedryaet-oplatu-kriptovalyutoy-dlya-svoih-sportkarov-na-amerikanskom-rynke.html
+Автор:MaxV
 
-Название: Этот бычий рынок будет другим
-Ссылка:https://www.ixbt.com/live/crypto/etot-bychiy-rynok-budet-drugim.html
-Автор:JinНовость № 9
+**************************************************
+Новость № 5
 
-Название: Apple решила обновлять ПО iPhone внутри коробки
-Ссылка:https://www.ixbt.com/live/mobile/apple-reshila-obnovlyat-po-iphone-vnutri-korobki.html
-Автор:Greg SobolevНовость № 10
+Название: Китайский производитель Vmax выпустил линейку электросамокатов VX2 PRO
+Ссылка:https://www.ixbt.com/live/car/kitayskiy-proizvoditel-vmax-vypustil-lineyku-elektrosamokatov-vx2-pro.html
+Автор:Technoblogger
 
-Название: В Университете Ёнсей разработан неотверждаемый клей, капля которого выдерживает 30 кг
-Ссылка:https://www.ixbt.com/live/offtopic/v-universitete-ensey-razrabotan-neotverzhdaemyy-kley-kaplya-kotorogo-vyderzhivaet-30-kg.html
-Автор:Rita SunНовость № 11
+**************************************************
+Новость № 6
 
-Название: Правительство США владеет почти 200 000 BTC на сумму 5,3 млрд долларов
-Ссылка:https://www.ixbt.com/live/crypto/pravitelstvo-ssha-vladeet-pochti-200-000-btc-na-summu-53-mlrd-dollarov.html
-Автор:JinНовость № 12
+Название: Создан для побед: представлен электровелосипед Haibike Hybe 11 2024
+Ссылка:https://www.ixbt.com/live/car/sozdan-dlya-pobed-predstavlen-elektrovelosiped-haibike-hybe-11-2024.html
+Автор:bdos
 
-Название: Apple готовит обновление ПО iPhone в магазинах без распечатывания упаковки смартфонов
-Ссылка:https://www.ixbt.com/live/mobile/apple-gotovit-obnovlenie-po-iphone-v-magazinah-bez-raspechatyvaniya-upakovki-smartfonov.html
-Автор:Orange MagneticНовость № 13
+**************************************************
+Новость № 7
 
-Название: Молчание SEC вызвало китовый заплыв: крупные инвесторы закупаются биткоинами
-Ссылка:https://www.ixbt.com/live/crypto/molchanie-sec-vyzvalo-kitovyy-zaplyv-krupnye-investory-zakupayutsya-bitkoinami.html
-Автор:JinНовость № 14
+Название: Эксперты назвали среднюю сумму снятия налички через банкомат за не полный 2023 год
+Ссылка:https://www.ixbt.com/live/offtopic/eksperty-nazvali-srednyuyu-summu-snyatiya-nalichki-cherez-bankomat-za-ne-polnyy-2023-god.html
+Автор:bobster
 
-Название: Начались продажи новых художественных и каллиграфических чернил «Малевичъ»
-Ссылка:https://www.ixbt.com/live/accessories/oktyabr-nachalo-prodazh-novyh-hudozhestvennyh-i-kalligraficheskih-chernil-malevich.html
-Автор:werter1245Новость № 15
+**************************************************
+Новость № 8
 
-Название: «Не продавайте свои биткоины, эта криптовалюта изменит мир», — глава Microstrategy о BTC
-Ссылка:https://www.ixbt.com/live/crypto/ne-prodavayte-svoi-bitkoiny-eta-kriptovalyuta-izmenit-mir-glava-microstrategy-o-btc.html
-Автор:JinНовость № 16
+Название: 24 октября OnePlus представит дисплей с яркостью 3000 нит
+Ссылка:https://www.ixbt.com/live/mobile/oneplus-predstavit-24-oktyabrya-2023-goda-displey-s-yarkostyu-3000-nit.html
+Автор:Rita Sun
 
-Название: Наступило самое опасное время для инвесторов за десятилетия
-Ссылка:https://www.ixbt.com/live/crypto/nastupilo-samoe-opasnoe-vremya-dlya-investorov-za-desyatiletiya.html
-Автор:JinНовость № 17
+**************************************************
+Новость № 9
 
-Название: Самые дорогие Casio G-Shock продадут на аукционе за 140 000 долларов. Их спроектировал Искусственный интеллект
-Ссылка:https://www.ixbt.com/live/accessories/samye-dorogie-casio-g-shock-prodadut-na-aukcione-za-140-000-dollarov-ih-sproektiroval-iskusstvennyy-intellekt.html
-Автор:tolikmgНовость № 18
+Название: Ультразвуковое охлаждение уже в мини-ПК: представлен Zbox Pico PI430AJ
+Ссылка:https://www.ixbt.com/live/platform/ultrazvukovoe-ohlazhdenie-uzhe-v-mini-pk-predstavlen-zbox-pico-pi430aj.html
+Автор:bdos
 
-Название: Экосистема Bosch на службе у трейлового электровелосипеда: представлен Lapierre Overvolt GLP 3
-Ссылка:https://www.ixbt.com/live/car/ekosistema-bosch-na-sluzhbe-u-treylovogo-elektrovelosipeda-predstavlen-lapierre-overvolt-glp-3.html
-Автор:bdosНовость № 19
+**************************************************
+Новость № 10
 
-Название: Система Millisign на основе RFID позволит точно посадить автономный дрон даже в тумане — без камер и GPS
-Ссылка:https://www.ixbt.com/live/drones/sistema-millisign-na-osnove-rfid-pozvolit-tochno-posadit-avtonomnyy-dron-dazhe-v-tumane-bez-kamer-i-gps.html
-Автор:Orange MagneticНовость № 20
+Название: Мне нужен твой пароль. В Windows 11 теперь можно поделиться паролем на WiFi
+Ссылка:https://www.ixbt.com/live/sw/mne-nuzhen-tvoy-parol-v-windows-11-teper-mozhno-podelitsya-parolem-na-wifi.html
+Автор:bobster
 
-Название: Суббренд Nothing выпустил свои первые беспроводные наушники CMF Buds Pro и умные часы CMF Watch Pro
-Ссылка:https://www.ixbt.com/live/gadgets/subbrend-nothing-vypustil-svoi-pervye-besprovodnye-naushniki-buds-pro-i-chasy-cmf-watch-pro.html
-Автор:bobsterНовость № 21
+**************************************************
+Новость № 11
 
-Название: Исследователи открыли материал, который даст возможность увеличить объем заряда батареи в устройствах
-Ссылка:https://www.ixbt.com/live/supply/issledovateli-otkryli-material-kotoryy-dast-vozmozhnost-uvelichit-obem-zaryada-batarei-v-ustroystvah.html
-Автор:PavelLBBНовость № 22
+Название: Число поисковых запросов по фразе «спотовый биткон-ETF» достигло рекорда
+Ссылка:https://www.ixbt.com/live/crypto/chislo-poiskovyh-zaprosov-po-slovu-spotovyy-bitcoin-etf-dostiglo-rekorda.html
+Автор:Jin
 
-Название: Технология Adobe позволила создать одежду и предметы с динамическими рисунками
-Ссылка:https://www.ixbt.com/live/accessories/tehnologiya-adobe-pozvolila-sozdat-odezhdu-i-predmety-s-dinamicheskimi-risunkami.html
-Автор:Orange MagneticНовость № 23
+**************************************************
+Новость № 12
 
-Название: Google Camera пережила ребрендинг до Pixel Camera и ужесточение системных требований
-Ссылка:https://www.ixbt.com/live/sw/google-camera-perezhila-rebrending-do-pixel-camera-i-uzhestochenie-sistemnyh-trebovaniy.html
-Автор:Orange MagneticНовость № 24
+Название: Биткоин вырос на 80% с начала года, но это далеко не предел
+Ссылка:https://www.ixbt.com/live/crypto/bitkoin-vyros-na-80-s-nachala-goda-no-eto-daleko-ne-predel.html
+Автор:Jin
 
-Название: Garda Hybrid: электрический велосипед с карбоновой рамой
-Ссылка:https://www.ixbt.com/live/car/garda-hybrid-elektricheskiy-velosiped-s-karbonovoy-ramoy.html
-Автор:TechnobloggerНовость № 25
+**************************************************
+Новость № 13
 
-Название: Новые модели MacBook Air с чипсетом M3 прошли инженерное тестирование, но анонс вряд ли состоится в этом году
-Ссылка:https://www.ixbt.com/live/mobilepc/novye-modeli-macbook-air-s-chipsetom-m3-proshli-inzhenernoe-testirovanie-no-anons-vryad-li-sostoitsya-v-etom-godu.html
-Автор:PavelLBBНовость № 26
+Название: Одобрение BlackRock ETF поднимет цену BTC до $56 000
+Ссылка:https://www.ixbt.com/live/crypto/odobrenie-blackrock-etf-podnimet-cenu-btc-do-56-000.html
+Автор:Jin
 
-Название: Теперь в поисковой строке Google можно будет задать текст для генерации изображения. ИИ на вооружении Google
-Ссылка:https://www.ixbt.com/live/sw/teper-v-poiskovoy-stroke-google-mozhno-budet-zadat-tekst-dlya-generacii-izobrazheniya-ii-na-vooruzhenii-google.html
-Автор:bobsterНовость № 27
+**************************************************
+Новость № 14
 
-Название: Россияне не готовы покупать новую бытовую технику. Ремонтируем старую технику, так проще и дешевле
-Ссылка:https://www.ixbt.com/live/offtopic/rossiyane-ne-gotovy-pokupat-novuyu-bytovuyu-tehniku-remontiruem-staruyu-tehniku-tak-prosche-i-deshevle.html
-Автор:bobsterНовость № 28
+Название: «Следующей остановкой» биткоина станут 135 000 долларов
+Ссылка:https://www.ixbt.com/live/crypto/sleduyuschey-ostanovkoy-bitkoina-stanut-135-000-dollarov.html
+Автор:Jin
 
-Название: Дебютировал стартовый комплект Xbox Series S
-Ссылка:https://www.ixbt.com/live/periphery/debyutiroval-startovyy-komplekt-xbox-series-s.html
-Автор:ProlusНовость № 29
+**************************************************
+Новость № 15
 
-Название: Космический корабль в мире повербанков: представлен AOHi Starship
-Ссылка:https://www.ixbt.com/live/supply/kosmicheskiy-korabl-v-mire-poverbankov-predstavlen-aohi-starship.html
-Автор:bdosНовость № 30
+Название: Жадность инвесторов BTC стала рекордной
+Ссылка:https://www.ixbt.com/live/crypto/zhadnost-investorov-btc-stala-rekordnoy.html
+Автор:Jin
 
-Название: Apple работает над дешёвой версией Vision Pro
-Ссылка:https://www.ixbt.com/live/periphery/apple-rabotaet-nad-deshevoy-versiey-vision-pro.html
+**************************************************
+Новость № 16
+
+Название: Что выгоднее содержать. Автомобиль с ДВС или электрокар
+Ссылка:https://www.ixbt.com/live/offtopic/chto-vygodnee-soderzhat-avtomobil-s-dvs-ili-elektrokar.html
+Автор:bobster
+
+**************************************************
+Новость № 17
+
+Название: Новая функция Google Chrome самостоятельно исправит набираемый URL адрес в операционных системах iOS и Android. Теперь действительно работает
+Ссылка:https://www.ixbt.com/live/sw/novaya-funkciya-google-chrome-samostoyatelno-ispravit-nabiraemyy-url-adres-v-operacionnyh-sistemah-ios-i-android-teper-deystvitelno-rabotaet.html
+Автор:bobster
+
+**************************************************
+Новость № 18
+
+Название: В ближайшие дни биткоин может подняться до $35-40 тыс.
+Ссылка:https://www.ixbt.com/live/crypto/v-blizhayshie-dni-bitkoin-mozhet-podnyatsya-do-35-40-tys.html
+Автор:Jin
+
+**************************************************
+Новость № 19
+
+Название: Джером Пауэлл сделал неожиданное заявление, которое отразится на криптовалютах
+Ссылка:https://www.ixbt.com/live/crypto/dzherom-pauell-sdelal-neozhidannoe-zayavlenie-kotoroe-otrazitsya-na-kriptovalyutah.html
+Автор:Jin
+
+**************************************************
+Новость № 20
+
+Название: TON Foundation вступили в партнерство с Blockchain.com
+Ссылка:https://www.ixbt.com/live/crypto/blockchaincom-vstupili-v-partnerstvo-s-ton-foundation.html
+Автор:TechnoReview
+
+**************************************************
+Новость № 21
+
+Название: Стала известна дата начала продаж новой версии Play Station 5, которую в народе окрестили PS5 Slim. Специальное предложение будет включать игру Spider Man 2
+Ссылка:https://www.ixbt.com/live/tv/stala-izvestna-data-nachala-prodazh-novoy-versii-play-station-5-kotoruyu-v-narode-okrestili-ps5-slim-specialnoe-predlozhenie-budet-vklyuchat-igru-spider-man-2.html
+Автор:Zloi
+
+**************************************************
+Новость № 22
+
+Название: Электроусилитель руля на велосипед: представлен концепт Yamaha Y-00Z
+Ссылка:https://www.ixbt.com/live/car/elektrousilitel-rulya-na-velosiped-predstavlena-koncept-yamaha-y-00z.html
+Автор:bdos
+
+**************************************************
+Новость № 23
+
+Название: Стало известно, почему Exynos 2200 в Galaxy S23 FE работает лучше, чем в Galaxy S22 Ultra
+Ссылка:https://www.ixbt.com/live/mobile/stalo-izvestno-pochemu-exynos-2200-v-galaxy-s23-fe-rabotaet-luchshe-chem-v-galaxy-s22-ultra.html
+Автор:PavelLBB
+
+**************************************************
+Новость № 24
+
+Название: Ryzen 5 7500F заставляет греться плату Gigabyte A620M S2H до 106°C
+Ссылка:https://www.ixbt.com/live/platform/ryzen-5-7500f-zastavlyaet-gretsya-platu-gigabyte-a620m-s2h-do-106c.html
+Автор:migalev.vg
+
+**************************************************
+Новость № 25
+
+Название: Компания Buffalo анонсировала самый маленький твердотельный накопитель
+Ссылка:https://www.ixbt.com/live/data/na-dalnem-vostoke-debyutiroval-samyy-malenkiy-tverdotelnyy-nakopitel.html
+Автор:PavelLBB
+
+**************************************************
+Новость № 26
+
+Название: В iOS 17.1 исправлены ошибки и добавлены новые функции
+Ссылка:https://www.ixbt.com/live/mobile/v-ios-171-ispravleny-oshibki-i-dobavleny-novye-funkcii.html
+Автор:PavelLBB
+
+**************************************************
+Новость № 27
+
+Название: Выпущен ноутбук Acer Youyue Pro с разрешением экрана 2,8K 120 Гц
+Ссылка:https://www.ixbt.com/live/mobilepc/vypuschen-noutbuk-acer-youyue-pro-s-razresheniem-ekrana-28k-120-gc.html
 Автор:Prolus
+
+**************************************************
+Новость № 28
+
+Название: Любой сможет запеть как...Нейросети Youtube дадут авторам голоса известных певцов?
+Ссылка:https://www.ixbt.com/live/sw/lyuboy-smozhet-zapet-kakneyroseti-youtube-dadut-avtoram-golosa-izvestnyh-pevcov.html
+Автор:Lumeniac
+
+**************************************************
+Новость № 29
+
+Название: Особенность дизайна. Появилось изображение нового флагмана Honor Magic 6 Pro
+Ссылка:https://www.ixbt.com/live/mobile/sleduyuschiy-flagman-honor-budet-otlichatsya-odnim-dizaynerskim-kurezom.html
+Автор:PavelLBB
+
+**************************************************
+Новость № 30
+
+Название: Российским чиновникам запретили покупать заграничные автомобили, теперь только отечественные и в рамках исключения, еще и китайские
+Ссылка:https://www.ixbt.com/live/offtopic/rossiyskim-chinovnikam-zapretili-pokupat-zagranichnye-avtomobili-teper-tolko-otechestvennye-i-v-ramkah-isklyucheniya-esche-i-kitayskie.html
+Автор:bobster
+
+**************************************************

@@ -14,6 +14,7 @@ class Parser:
     def get_html(self):
         req = requests.get(self.url).text
         self.html = BeautifulSoup(req, "lxml")
+        # print(self.html)
 
     def parsing(self):
         news = self.html.find_all("div", class_="caption")
@@ -26,19 +27,19 @@ class Parser:
                 'href': href,
                 'author': author
             })
-        print(self.res)
+        # print(self.res)
 
     def save(self):
         with open(self.path, "w") as f:
             i = 1
             for item in self.res:
                 f.write(f"Новость № {i}\n\nНазвание: {item['title']}\nСсылка:{item['href']}\nАвтор:"
-                        f"{item['author']}")
+                        f"{item['author']}\n\n{'*' * 50}\n")
                 i += 1
-
+    #
     def run(self):
         self.get_html()
         self.parsing()
         self.save()
-
-
+    #
+    #
