@@ -21,3 +21,26 @@ class Controller:
         elif answer == "2":
             articles = self.articles_model.get_all_articles()
             self.user_interface.show_all_articles(articles)
+        elif answer == '3':
+            article_title = self.user_interface.get_user_article()
+            try:
+                article = self.articles_model.get_single_article(article_title)
+            except KeyError:
+                return self.user_interface.show_incorrect_title(article_title)
+            else:
+                self.user_interface.show_article(article)
+
+        elif answer == '4':
+            article_title = self.user_interface.get_user_article()
+            try:
+                article = self.articles_model.remove_article(article_title)
+            except KeyError:
+                return self.user_interface.show_incorrect_title(article_title)
+            else:
+                self.user_interface.del_article(article)
+
+        elif answer == 'q':
+            self.articles_model.save_data()
+        else:
+            self.user_interface.show_incorrect_answer(answer)
+
