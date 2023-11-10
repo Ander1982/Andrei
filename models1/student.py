@@ -1,0 +1,49 @@
+# from models1.database import Base
+# from sqlalchemy import Column, ForeignKey, Integer, String
+#
+#
+# class Student(Base):
+#     __tablename__ = "student"
+#
+#     id = Column(Integer, primary_key=True)
+#     surname = Column(String(250), nullable=False)
+#     rname = Column(String(250), nullable=False)
+#     patronymic = Column(String(250), nullable=False)
+#     age = Column(Integer)
+#     group = Column(Integer, ForeignKey("groups.id"))
+#
+#     def __init__(self, full_name, age, id_group):
+#         self.surname = full_name[0]
+#         self.name = full_name[1]
+#         self.patronymic = full_name[2]
+#         self.age = age
+#         self.group = id_group
+#
+#     def __repr__(self):
+#         return f"Студент (ФИО: {self.surname} {self.name}, {self.patronymic}), возраст {self.age}), ID_группы: {self.group}"
+
+from models1.database import Base
+from sqlalchemy import Column, ForeignKey, Integer, String
+
+
+class Student(Base):
+    __tablename__ = 'student'
+
+    id = Column(Integer, primary_key=True)
+    surname = Column(String(250), nullable=False)
+    name = Column(String(250), nullable=False)
+    patronymic = Column(String(250), nullable=False)
+    age = Column(Integer)
+    group = Column(Integer, ForeignKey('groups.id'))
+
+    def __init__(self, full_name, age, id_group):
+        self.surname = full_name[0]
+        self.name = full_name[1]
+        self.patronymic = full_name[2]
+        self.age = age
+        self.group = id_group
+
+    def __repr__(self):
+        return f"Студент (ФИО: {self.surname} {self.name} {self.patronymic}), " \
+        f"возраст: {self.age}, ID_группы: {self.group}"
+

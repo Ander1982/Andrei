@@ -1,0 +1,120 @@
+1.	Сосчитать количество клиентов, покупающих товар.
+SELECT COUNT(CLIENT) AS[КОЛИЧЕСТВО КЛИЕНТОВ]
+FROM CLIENT
+
+2.	Сколько посредников поставляют товар для фирмы.
+SELECT COUNT(SELLER) AS[КОЛИЧЕСТВО КЛИЕНТОВ]
+FROM SELLER
+WHERE STATUS LIKE "посредник"
+
+3.	Вывести среднюю сумму сделки по проданному товару.
+SELECT AVG(COSTUNIT * COUNT)
+FROM CLIENTGOODS
+
+4.	Посчитать на какую сумму было всего поставлено товара.
+SELECT C.Client, MIN(CG.COSTUNIT*CG.COUNT)
+FROM CLIENT C, CLIENTGOODS CG
+WHERE CG.INNClient = C.INNClient
+
+5.	Определите максимальное количество закупленного товара шт.(кг)
+SELECT MAX(COUNT)
+FROM SALLERGOODS
+
+6.	Какая минимальная сумма покупки, на которую клиент сделал заказ.
+SELECT IDPARTY, MIN(COSTUNIT * COUNT)
+FROM CLIENTGOODS
+
+7.	Посчитать на какую сумму было продано товара магазинам.
+SELECT SUM(CG.COSTUNIT * CG.Count) as "сумма проданных товаров магазинами"
+FROM CLIENTGOODS CG, CLIENT C
+WHERE C.INNClient = CG.INNClient AND C.STATUS = "магазин"
+
+8.	Сосчитать общее количество видов закупленных фирмой вафель.
+SELECT COUNT(GOODS)
+FROM SALLERGOODS
+WHERE GOODS GLOB "Вафли*"
+
+9.	Выведите среднюю цену на растительное масло (закупочную).
+SELECT AVG(COSTUNIT)
+FROM SALLERGOODS
+WHERE GOODS GLOB "масло*" AND GOODS NOT LIKE "масло с%"
+
+10.	Определите сколько всего было продано килограмм яблок.
+      SELECT SUM(Cg.COUNT)
+FROM SALLERGOODS SG, CLIENTGOODS CG
+WHERE SG.ID = CG.ID AND SG.GOODS LIKE "Яблоки%"
+
+11.	Определите какое количество картофеля закупили кафе.
+SELECT SUM(sg.Count)
+      FROM SALLERGOODS sg, Client C, ClientGoods CG
+      WHERE sg.ID = CG.ID AND CG.INNClient = C.INNClient AND sg.Goods LIKE "Картофель%" AND      
+       C.Status = "кафе"
+
+12.	Посчитать сколько клиентов купили перец черный молотый.
+SELECT Count(C.Client)
+FROM SALLERGOODS sg, Client C, ClientGoods CG
+WHERE sg.ID = CG.ID AND CG.INNClient = C.INNClient AND sg.Goods = "Перец черный молотый"
+
+13.	Определить сколько наименований товара было куплено у посредников.
+     SELECT DISTINCT Count(sg.Goods)
+      FROM SALLERGOODS sg, Client C, ClientGoods CG
+WHERE sg.ID = CG.ID AND CG.INNClient = C.INNClient
+
+14.	Определить минимальную цену за единицу проданного товара.
+SELECT Min(CostUnit)
+FROM SALLERGOODS
+
+15.	Определите минимальную сумму на какую было закуплено товара.
+      SELECT Min(CG.CostUnit * SG.Count)
+FROM SALLERGOODS SG, CLIENTGOODS CG
+WHERE SG.ID = CG.ID
+
+16.	Определить максимальную сумму за товар, проданный магазинам.
+SELECT MAX(CG.CostUnit * CG.Count)
+FROM SALLERGOODS SG, CLIENTGOODS CG, CLIENT C
+WHERE SG.ID = CG.ID AND CG.INNClient = C.INNClient AND Status = "магазин"
+
+17.	Определить со сколькими фирмами сотрудничает данная фирма.
+
+18.	Определить минимальную сумму сделки по закупке товара у производителей.
+      SELECT Min(SG.CostUnit * SG.Count)
+FROM SALLERGOODS SG, SELLER S
+WHERE SG.INNSELLER = S.INNSeller AND S.Status = "производитель"
+
+19.	Определить среднюю цену за пачку чая при покупке.
+SELECT AVG(SG.CostUnit * SG.Count)
+FROM SALLERGOODS SG, CLIENTGOODS CG 
+WHERE SG.ID = CG.ID AND SG.Goods LIKE "Чай%"
+
+20.	Определите максимальную сумму прибыли за товар, проданный посреднику.
+SELECT MAX(SG.CostUnit * SG.Count)
+FROM SALLERGOODS SG, Seller S 
+WHERE SG.INNSeller = S.INNSeller AND S.Status LIKE "посредник"
+
+21.	 Определите минимальную прибыль за товар, купленный у посредника.
+SELECT ROUND(MIN((CG.CostUnit - SG.CostUnit) * CG.Count)))
+FROM CLIENTGOODS CG, SALLERGOODS SG, Seller S
+WHERE SG.INNSeller = S.INNSeller AND CG.ID = SG.ID AND S.Status LIKE "посредник"
+
+22.	 Какое количество наименований товара куплено у фирмы.
+           SELECT COUNT(DISTINCT ID)
+FROM CLIENTGOODS
+
+1.	 Сколько в продаже видов печенья.
+SELECT Count(Goods)
+FROM SALLERGOODS 
+WHERE GOODS LIKE "%Печенье%"
+2.	 Какая максимальная сумма покупки, на которую клиент сделал заказ.
+SELECT MAX(CostUnit * Count)
+FROM CLIENTGOODS
+
+3.	 Определите среднюю прибыль от перепродажи масла.
+SELECT AVG(ROUND((CG.CostUnit - SG.CostUnit) * CG.Count))
+FROM CLIENTGOODS CG, SALLERGOODS SG
+WHERE CG.ID = SG.ID AND SG.Goods LIKE "масло%"
+
+4.	 Со сколькими посредниками сотрудничает фирма.
+SELECT COUNT(Status)
+FROM Seller
+WHERE Status LIKE "посредник"
+
