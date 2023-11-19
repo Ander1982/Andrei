@@ -116,7 +116,7 @@ import os.path
 # print_tree('Work', topdown=True)
 
 # import time
-# path = 'main.py'
+# path = 'урок 40 .py'
 # size = os.path.getsize(path)
 # print(size // 1024, 'KB')
 # ctime = os.path.getctime(path)
