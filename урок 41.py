@@ -92,9 +92,12 @@ from jinja2 import Template
 #
 # l = """<ul>
 # {% for k in c -%}
-#     {% if c.l == "Главная"%}
-#         <lu><a href="/{{k['href']}}" class="active">{{ k['n']}}</a>
-#
+#     {% if k.n == "Главная" %}
+#     <lu><a href="/{{k['href']}}" class="active">{{ k['n']}}</a></lu>
+#     {% else -%}
+#         <lu><a href="/{{k['href']}}">{{ k['n']}}</a></lu>
+#     {% endif -%}
+#     {% endfor -%}
 # </ul>"""
 # tm = Template(l)
 # msg = tm.render(c=c)
@@ -150,6 +153,24 @@ from jinja2 import Template
 # msg = tm.render()
 # print(msg)
 
+# второй вариант
+
+# html = """
+# {% macro input_text(name, placeholder, type="text") -%}
+#     <input type="{{ type}}" name="{{ name }}" placeholder="{{ placeholder }}">
+# {%- endmacro %}
+#
+# <p>{{ input_text("firstname", "Имя")}}</p>
+# <p>{{ input_text("lastname", "Фамилия")}}</p>
+# <p>{{ input_text("text", "address", "Адрес")}}</p>
+# <p>{{ input_text("phone", "Телефон","tel")}}</p>
+# <p>{{ input_text("email", "Почта", "email")}}</p>
+#
+# """
+#
+# tm = Template(html)
+# msg = tm.render()
+# print(msg)
 
 # from  jinja2 import Environment, FileSystemLoader
 # persons = [
