@@ -21,10 +21,10 @@ body {
 }
 
 .flash{
-    padding: 10px;
+    padding: 100px;
 }
 .flash.success{
-    border: 1px solid #21DB56;
+    border: 1px solid green;
     background: #AEFFC5;
 }
 .flash.error{
@@ -32,7 +32,7 @@ body {
     background: #FF9C9C;
 }
 
-.menu a{
+/* .menu a{
     font-weight: bold;
     color: brown;
 }
@@ -65,4 +65,4 @@ p.title:hover{
     margin-top: -1px;
     margin-bottom: 40 px;
     background-color: #fff;
-}
+} */
