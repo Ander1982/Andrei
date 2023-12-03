@@ -4,6 +4,7 @@ import math
 import re
 from flask import url_for
 
+
 class FDataBase:
     def __init__(self, db):
         self.__db = db
@@ -29,7 +30,8 @@ class FDataBase:
                 return False
 
             base = url_for("static", filename="images")
-            text = re.sub(r"(?P<tag><img\s+[^>]*src=)(?P<quote>[\"'])(?P<url>.+?)(?P=quote)>", r"\g<tag>" + base + r"/\g<url>>", text)
+            text = re.sub(r"(?P<tag><img\s+[^>]*src=)(?P<quote>[\"'])(?P<url>.+?)(?P=quote)>",
+                          r"\g<tag>" + base + r"/\g<url>>", text)
 
             tm = math.floor(time.time())
             self.__cur.execute('INSERT INTO posts VALUES(NULL, ?, ?, ?, ?)', (title, text, url, tm))
@@ -59,4 +61,3 @@ class FDataBase:
             print("Ошибка получения статей в БД" + str(e))
 
         return []
-

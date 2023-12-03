@@ -1,0 +1,85 @@
+body {
+    background: yellow;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background: orange;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flash{
+    padding: 10;
+}
+.flash.success{
+    border: 1 px solid green;
+    background: rgb(0, 243, 0);
+}
+.flash.error{
+    border: 1px solid red;
+    background: rgb(250, 0, 0);
+}
+.menu a{
+    font-weight: bold;
+    color: brown;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+p>a{
+    text-decoration: none;
+    color: brown;
+}
+li>p, li div{
+    border: 1px solid #ccc ;
+    padding: 10px 10px;
+}
+p.title{
+    margin: 0;
+    font-weight: bold;
+    background: gold;
+}
+p.title a{
+    display: block;
+}
+p.title:hover{
+    background: orange;
+}
+.annonce{
+    margin-top: -20px;
+    margin-bottom: 30px;  
+    background-color: #fff;
+}
+p.price{
+    margin-top: -1px;
+    margin-bottom: 40 px;
+    background-color: beige;
+
+}
+
+.float{
+    width: 30%;
+    float: left;
+    padding: 10px;
+      
+}
+h1, h2{
+   display: flex;
+   justify-content: center;
+}
