@@ -1,7 +1,7 @@
-from flask import Flask, render_template, url_for, request, flash, session, redirect, g
+from flask import Flask, render_template, url_for, request, flash, session, redirect, g, abort
 import sqlite3
 import os
-from flsk.FDataBase import FDataBase
+from DZ_flsk1.FDataBase import FDataBase
 
 DATABASE = 'flsk1.db'
 DEBUG = True
@@ -43,14 +43,33 @@ def get_db():
 def index():
     db = get_db()
     dbase = FDataBase(db)
-    return render_template("index.html", title='Информация', menu=dbase.get_menu())
+    return render_template("index.html", title="Информация", menu=dbase.get_menu(), course=dbase.get_course_anonce())
 
 
 @app.route('/add_course', methods=['GET', 'POST'])
 def add_course():
     db = get_db()
     dbase = FDataBase(db)
+    if request.method == 'POST':
+        if len(request.form['name']) > 4 and len(request.form['course']) > 10:
+            res = dbase.add_course(request.form['name'], request.form['course'], request.form['url              '])
+            if not res:
+                flash('Ошибка добавления курса', category='error')
+            else:
+                flash('Курс внесен', category='success')
+
     return render_template("add_course.html", title='Добавление курсов', menu=dbase.get_menu())
+
+
+@app.route('/course/<alias>')
+def show_course(alias):
+    db = get_db()
+    dbase = FDataBase(db)
+    title, course = dbase.get_course(alias)
+    if not title:
+        abort(404)
+
+    return render_template("course.html", menu=dbase.get_menu(), title=title, course=course)
 
 
 @app.route("/about")

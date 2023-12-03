@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{{ super() }}
+
+<h2>Список статей</h2>
+<ul>
+    {% for c in course %}
+    <li>
+        <p class="title">
+            <a href="{{ url_for('show_course', alias=c.url) }}">{{ c.title }}</a>
+        </p>
+        <div class="annonce">{{ c.text[:250] }}</div>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
