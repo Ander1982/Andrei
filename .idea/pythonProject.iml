@@ -7,6 +7,9 @@
       <sourceFolder url="file://$MODULE_DIR$/DZ_second/personal_portfolio_DZ" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/third/todos" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DZ_49/exit" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DZ_50/exits" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DZ_501/opens" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DZ_third/porols" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
