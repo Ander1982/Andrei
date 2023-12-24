@@ -27,4 +27,7 @@ urlpatterns = (
     path('', views.home, name='home'),
     path('login/', views.loginuser, name='loginuser'),
     path('create/', views.creatework, name='creatework'),
+    path('task/<int:task_pk>/', views.viewtask, name='viewtask'),
+    path('task/<int:task_pk>/complet', views.completwork, name='completwork'),
+
 )

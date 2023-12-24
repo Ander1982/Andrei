@@ -3,5 +3,24 @@
 {% block content %}
 
 <h1>Виды работ</h1>
+<ul>
+    {% for work in works %}
+    <li>
+        <a href="{% url 'viewtask' work.id %}">
+            {% if work.important %}
+            <b>{{ work.title }}</b>
+            {% else %}
+            {{ work.title }}
+            {% endif %}
+
+            {% if work.memo %}
+            - {{ work.memo}}
+
+            {% endif %}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+
 
 {% endblock %}

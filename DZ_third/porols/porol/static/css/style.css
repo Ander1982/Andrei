@@ -76,3 +76,13 @@ input{
     border: none;
     color: #fff;
 }
+.content li{
+    box-shadow: 0 2px 8px 2px blue;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.content a{
+    color: #000;
+    display: block;
+    padding: 20px;
+}
